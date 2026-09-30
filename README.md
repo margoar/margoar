@@ -1,8 +1,5 @@
-[🇪🇸 Español](#es) · [🇬🇧 English](#en)
-
-<a id="es"></a>
-
-# 🇪🇸 Español
+<details open>
+<summary><b>🇪🇸 Español</b></summary>
 
 **Marcela González Arias · @Margoar**  
 👩🏻‍💻 Backend Developer / Software Engineer · Desarrolladora backend en **PuntoTicket**
@@ -64,11 +61,10 @@ No soy gamer 🎮. Trabajar en tecnología no viene con un control incluido.
 
 Eso sí, soy curiosa 🤓. Puedo pasar demasiado tiempo intentando entender cómo funciona algo que nadie me pidió entender. Me gusta programar, pero esa curiosidad llega bastante más allá del código.
 
----
+</details>
 
-<a id="en"></a>
-
-# 🇬🇧 English
+<details>
+<summary><b>🇬🇧 English</b></summary>
 
 **Marcela González Arias · @Margoar**  
 👩🏻‍💻 Backend Developer / Software Engineer · Currently building backends at **PuntoTicket**
@@ -112,4 +108,4 @@ My code follows best practices. My diet doesn't: junk food 🍔 keeps failing co
 
 Not a gamer 🎮, by the way. Working in tech doesn't come with a controller. What I am is curious 🤓, sometimes to the point of spending far too long figuring out how something works just because I want to know.
 
-[↑ Back to top](#es)
+</details>
