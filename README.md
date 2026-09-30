@@ -1,44 +1,47 @@
 # Marcela González Arias
 
-Backend developer y software engineer en Chile. En GitHub publico mi trabajo como **@Margoar**.
+**@Margoar** en GitHub · Ingeniera en Informática · Backend Developer en **PuntoTicket**
 
-Me interesa la parte del backend que no se ve en una demo: qué pasa cuando dos requests compiten por el mismo recurso, dónde vive cada responsabilidad y cómo comprobar que el sistema hace lo que dice que hace.
+Escribo backend: la parte que nadie ve cuando todo funciona y que todos notan cuando algo falla. Trabajo en una ticketera, así que "mucha gente queriendo lo mismo al mismo tiempo" no me suena a caso borde de libro. Me suena a martes.
 
-## En qué estoy trabajando
+## 👩‍💻 Lo que hago
 
-Mi foco reciente es **.NET 8 con Redis**. En [dotnet-redis-inventory-demo](https://github.com/margoar/dotnet-redis-inventory-demo) construí una API de inventario para practicar tres mecanismos concretos:
+Me gusta el backend porque ahí viven las preguntas interesantes. Dónde va cada responsabilidad. Qué pasa si dos requests llegan juntas. Cómo demuestro que esto realmente funciona, y no solo que funcionó una vez en mi máquina.
 
-- **Cache-Aside con TTL** para leer y repoblar el stock.
-- **Reserva atómica con un script Lua**, para que nada se intercale entre validar y descontar.
-- **Distributed lock** con `SET NX`, token de ownership y liberación segura.
+## 🚀 Cómo llegué hasta aquí (según mi propio GitHub)
 
-Los tests de integración corren contra un Redis real. Uno de ellos lanza 20 reservas simultáneas sobre un stock de 10 y verifica que se acepten exactamente 10.
+- **Java.** Una app web de control de pacientes con Servlets, JSP, JDBC y MySQL, con login y exportación a Excel. La época de configurarlo todo a mano.
+- **Python.** Modelado orientado a objetos: computadores, teclados, mouses y órdenes de compra conversando entre sí.
+- **C# y .NET 8.** Arquitectura en capas incluso en ejercicios chicos, un árbol filogenético armado desde un archivo de texto y una API de inventario con Redis: cache-aside, reservas atómicas con Lua, locks distribuidos y tests de concurrencia contra un Redis real.
+- **Por el camino.** Un sitio web en HTML, CSS y JavaScript puros, hecho en un curso de desarrollo con IA generativa.
 
-## Proyectos
+Cambiaron los lenguajes. Lo que no cambió es que quiero entender *por qué* algo funciona, no solo *que* funcione.
 
-| Proyecto | Problema | Stack |
-| --- | --- | --- |
-| [dotnet-redis-inventory-demo](https://github.com/margoar/dotnet-redis-inventory-demo) | Stock consistente bajo concurrencia | C#, ASP.NET Core, Redis, xUnit |
-| [ejercicio-arbol-filogenetico](https://github.com/margoar/ejercicio-arbol-filogenetico) | Construir un árbol a partir de IDs jerárquicos (`1.2.3`) y recorrer subárboles | C#, .NET 8 |
-| [pacientes](https://github.com/margoar/pacientes) | Aplicación web de gestión de pacientes con login y exportación a Excel | Java, Servlets, JSP, JDBC, MySQL |
-| [PC-MUNDO](https://github.com/margoar/PC-MUNDO) | Modelado orientado a objetos de órdenes de computadores y periféricos | Python |
-| [PAGINARESTAURANT](https://github.com/margoar/PAGINARESTAURANT) | Sitio responsive sin frameworks ni dependencias | HTML, CSS, JavaScript |
+## 🧠 Lo que estoy aprendiendo
 
-## Stack
+- Concurrencia y consistencia: operaciones atómicas, locks y expiración.
+- Arquitectura: separar dominio, aplicación e infraestructura sin enamorarme de las capas.
+- Tests que prueben lo difícil, no solo lo cómodo.
+- Programar con IA como herramienta, sin dejar de pensar yo.
 
-**Principal:** C# · .NET 8 · ASP.NET Core · Redis (StackExchange.Redis, Lua)  
-**Testing:** xUnit · pruebas de integración  
-**También he trabajado con:** Java (Servlets, JSP, JDBC, Maven) · MySQL · Python · HTML, CSS y JavaScript  
-**Herramientas:** Git · Docker para entornos locales
+## 💻 Herramientas
 
-## Explorando ahora
+**Hoy:** C# · .NET 8 · ASP.NET Core · Redis · xUnit  
+**En mi historia:** Java · MySQL · Python · HTML, CSS y JavaScript  
+**Siempre a mano:** Git · Docker
 
-- Concurrencia y consistencia con Redis: operaciones atómicas, locks distribuidos y expiración.
-- Arquitectura en capas en .NET, con Domain, Application, Infrastructure y API separados y dependencias hacia adentro.
-- Desarrollo asistido por IA generativa, que practiqué construyendo el sitio de PAGINARESTAURANT.
+## 🐈 Fuera del código
 
-## Cómo trabajo
+Soy mamá de **Marti** 👧, mi proyecto favorito, aunque ella probablemente diría que el proyecto soy yo. ❤️
 
-- **Separo responsabilidades antes de escribir lógica.** Dominio, aplicación e infraestructura van en capas distintas, incluso en ejercicios pequeños.
-- **Pruebo lo que puede fallar.** Concurrencia, TTL y locks se verifican contra un Redis real, no solo con dobles de prueba.
-- **Documento también lo que falta.** Mis README indican qué pieza todavía no se usa o qué va a fallar en otro sistema operativo.
+Leo mucho 📚, lo que entra en conflicto directo con otra de mis grandes prioridades: dormir 😴. Sí, soy desarrolladora. No, no romantizo programar a las 3 AM. Los bugs también pueden esperar a mañana.
+
+En el código defiendo las buenas prácticas. En la alimentación, la comida chatarra 🍔 sigue sin pasar code review y yo sigo aprobándola igual.
+
+Los gatos 🐈 son mis compañeros de trabajo no oficiales. No hacen pull requests, pero supervisan todo desde encima del teclado.
+
+Y no, no soy gamer. Trabajar en tecnología no viene con un control incluido.
+
+---
+
+Si llegaste hasta aquí, gracias por leer. Ahora mismo probablemente estoy escribiendo un test, leyendo un libro o durmiendo. Ojalá lo último.
