@@ -1,47 +1,64 @@
 # Marcela González Arias
 
-**@Margoar** en GitHub · Ingeniera en Informática · Backend Developer en **PuntoTicket**
+👩🏻‍💻 Backend Developer / Software Engineer · **@Margoar** on GitHub · Currently building backends at **PuntoTicket**
 
-Escribo backend: la parte que nadie ve cuando todo funciona y que todos notan cuando algo falla. Trabajo en una ticketera, así que "mucha gente queriendo lo mismo al mismo tiempo" no me suena a caso borde de libro. Me suena a martes.
-
-## 👩‍💻 Lo que hago
-
-Me gusta el backend porque ahí viven las preguntas interesantes. Dónde va cada responsabilidad. Qué pasa si dos requests llegan juntas. Cómo demuestro que esto realmente funciona, y no solo que funcionó una vez en mi máquina.
-
-## 🚀 Cómo llegué hasta aquí (según mi propio GitHub)
-
-- **Java.** Una app web de control de pacientes con Servlets, JSP, JDBC y MySQL, con login y exportación a Excel. La época de configurarlo todo a mano.
-- **Python.** Modelado orientado a objetos: computadores, teclados, mouses y órdenes de compra conversando entre sí.
-- **C# y .NET 8.** Arquitectura en capas incluso en ejercicios chicos, un árbol filogenético armado desde un archivo de texto y una API de inventario con Redis: cache-aside, reservas atómicas con Lua, locks distribuidos y tests de concurrencia contra un Redis real.
-- **Por el camino.** Un sitio web en HTML, CSS y JavaScript puros, hecho en un curso de desarrollo con IA generativa.
-
-Cambiaron los lenguajes. Lo que no cambió es que quiero entender *por qué* algo funciona, no solo *que* funcione.
-
-## 🧠 Lo que estoy aprendiendo
-
-- Concurrencia y consistencia: operaciones atómicas, locks y expiración.
-- Arquitectura: separar dominio, aplicación e infraestructura sin enamorarme de las capas.
-- Tests que prueben lo difícil, no solo lo cómodo.
-- Programar con IA como herramienta, sin dejar de pensar yo.
-
-## 💻 Herramientas
-
-**Hoy:** C# · .NET 8 · ASP.NET Core · Redis · xUnit  
-**En mi historia:** Java · MySQL · Python · HTML, CSS y JavaScript  
-**Siempre a mano:** Git · Docker
-
-## 🐈 Fuera del código
-
-Soy mamá de **Marti** 👧, mi proyecto favorito, aunque ella probablemente diría que el proyecto soy yo. ❤️
-
-Leo mucho 📚, lo que entra en conflicto directo con otra de mis grandes prioridades: dormir 😴. Sí, soy desarrolladora. No, no romantizo programar a las 3 AM. Los bugs también pueden esperar a mañana.
-
-En el código defiendo las buenas prácticas. En la alimentación, la comida chatarra 🍔 sigue sin pasar code review y yo sigo aprobándola igual.
-
-Los gatos 🐈 son mis compañeros de trabajo no oficiales. No hacen pull requests, pero supervisan todo desde encima del teclado.
-
-Y no, no soy gamer. Trabajar en tecnología no viene con un control incluido.
+I work on the part of software where "the user buys a ticket" turns into twenty business rules, three validations, one transaction, and an edge case nobody mentioned in the meeting.
 
 ---
 
-Si llegaste hasta aquí, gracias por leer. Ahora mismo probablemente estoy escribiendo un test, leyendo un libro o durmiendo. Ojalá lo último.
+## ⚙️ What I do
+
+I build backends for real systems, the kind whose business rules don't fit in a pretty diagram. My work starts before the code: understanding the problem, finding the hidden rules, and turning them into logic that works correctly today and still makes sense to whoever maintains it next.
+
+## 🧠 What I'm good at
+
+- 🧩 **Untangling complexity.** I take a messy problem and turn it into clear business logic, with names that actually mean something.
+- 🔍 **Finding the real cause.** A bug that disappears on its own isn't fixed. It's just hiding.
+- 🏗️ **Designing for tomorrow.** I care about solutions that stay maintainable when requirements change, because they will.
+- 🗄️ **Understanding the data.** Modeling, queries, stored procedures, persistence. When something is slow, the first thing I check is what the database is doing.
+- 🔄 **Seeing the whole flow.** Backend is my strength, but I follow the request all the way from the frontend to the systems it integrates with.
+- 🐛 **Not settling for "it works."** I want to know *why* it works, and more importantly, what would make it stop.
+
+My method, more or less:
+
+```csharp
+while (!understandWhyItWorks)
+{
+    Investigate();
+    Experiment();
+    GetItWrong(); // an official part of the process
+    Learn();
+}
+```
+
+## 🛠️ What I work with
+
+| Area | Tools |
+| --- | --- |
+| Backend | C# · .NET / .NET Core · REST APIs · Node.js · NestJS |
+| Data | SQL Server · PostgreSQL · Dapper · Entity Framework · Stored Procedures · Redis |
+| Frontend | Angular · React · JavaScript · TypeScript |
+| Cloud & infrastructure | Azure · GCP · Docker · Kubernetes |
+| Quality & operations | Testing · Logging & observability · Git / GitHub |
+
+And above all of that: backend architecture, integrations, and business rules, which is where a system really succeeds or fails.
+
+## 📚 What I want to learn (more of)
+
+Software architecture, data structures and algorithms, testing, observability, cloud, and distributed systems. None of these feel "done" to me. My to-learn list grows faster than my learned list, and I'm fine with that.
+
+---
+
+## 🐱 When I close VS Code
+
+I'm Marti's mom 👧🏻. She's one of the most important people in my life and the only one who can reprioritize my entire backlog without opening a ticket. ❤️
+
+I love reading 📚, which competes directly with one of my greatest talents: sleeping 😴. And no, code doesn't keep me up at night. I have my priorities straight.
+
+I adore cats 🐱. If one walks across my keyboard, I count it as pair programming.
+
+I follow best practices in my code. My diet is another story: junk food 🍔 keeps failing code review, and I keep approving it anyway.
+
+I'm not a gamer. Working in tech doesn't come with a controller included.
+
+What I am is curious 🤓. I can spend far too long figuring out how something works when nobody asked me to. I like programming, but that curiosity reaches well beyond code.
