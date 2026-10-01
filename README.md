@@ -5,19 +5,6 @@
 👩🏻‍💻 Backend Developer / Software Engineer · Desarrolladora backend en **PuntoTicket**
 
 
-
-Mi método, más o menos:
-
-```csharp
-while (!entiendoPorQueFunciona)
-{
-    Investigar();
-    Probar();
-    Equivocarme(); // parte oficial del proceso
-    Aprender();
-}
-```
-
 ## 🛠️ Con qué trabajo
 
 | Área | Herramientas |
@@ -27,9 +14,6 @@ while (!entiendoPorQueFunciona)
 | Frontend | Angular · React · JavaScript · TypeScript |
 | Cloud e infraestructura | Azure · GCP · Docker · Kubernetes |
 | Calidad y operación | Testing · Logging y observabilidad · Git / GitHub |
-
-Y por encima de todo eso: arquitectura backend, integraciones y reglas de negocio, que es donde realmente se decide si un sistema funciona.
-
 
 
 ## 🌸 Mi GitHub, en números
@@ -59,8 +43,6 @@ Y por encima de todo eso: arquitectura backend, integraciones y reglas de negoci
 👩🏻‍💻 Backend Developer / Software Engineer · Currently building backends at **PuntoTicket**
 
 I work on the part of software where "the user buys a ticket" turns into twenty business rules, three validations, one transaction, and an edge case nobody mentioned in the meeting.
-
-
 
 
 ## 🛠️ What I work with
