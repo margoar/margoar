@@ -17,7 +17,11 @@
 
 
 ## 🌸 Mi GitHub, en números
+## 📊 GitHub Stats
 
+![GitHub Stats](./gh-stats.svg)
+
+![Top Languages](./gh-stats-language.svg)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Margoar&show_icons=true&hide_rank=true&card_width=330&locale=es&custom_title=Mi%20GitHub%2C%20en%20n%C3%BAmeros&bg_color=35,2b2030,221c33&title_color=f4a8c9&text_color=e6dcee&icon_color=c7a6f2&border_color=4a3652&border_radius=14">
