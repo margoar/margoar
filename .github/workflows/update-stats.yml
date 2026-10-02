@@ -1,4 +1,4 @@
-name: Automated Stats
+name: Update GitHub Stats
 
 on:
   workflow_dispatch:
@@ -14,14 +14,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create automated file
+      - name: Generate GitHub stats
         run: |
-          echo "Last automated update: $(date)" > automated-stats.txt
+          curl -L "https://github-readme-stats.vercel.app/api?username=margoar&show_icons=true" \
+            -o gh-stats.svg
 
-      - name: Commit changes
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=margoar&layout=compact&langs_count=8" \
+            -o gh-stats-language.svg
+
+      - name: Commit stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add automated-stats.txt
-          git commit -m "chore: automated stats update" || exit 0
+
+          git add gh-stats.svg gh-stats-language.svg
+
+          git commit -m "chore: update GitHub stats" || exit 0
+
           git push
